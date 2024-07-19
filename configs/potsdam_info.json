@@ -1,0 +1,88 @@
+[
+
+  {
+    "hasInstances": false,
+    "category": "cul. back.",
+    "catid": 0,
+    "name": "cul. back.",
+    "ignoreInEval": true,
+    "id": 0,
+    "color": [
+      255,
+      0,
+      0
+    ],
+    "trainId": 0
+  },
+
+  {
+    "hasInstances": false,
+    "category": "imp. sur.",
+    "catid": 1,
+    "name": "imp. sur.",
+    "ignoreInEval": false,
+    "id": 1,
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "trainId": 1
+  },
+  {
+    "hasInstances": false,
+    "category": "car",
+    "catid": 2,
+    "name": "car",
+    "ignoreInEval": false,
+    "id": 2,
+    "color": [
+      255,
+      255,
+      0
+    ],
+    "trainId": 2
+  },
+  {
+    "hasInstances": false,
+    "category": "tree",
+    "catid": 3,
+    "name": "tree",
+    "ignoreInEval": false,
+    "id": 3,
+    "color": [
+      0,
+      255,
+      0
+    ],
+    "trainId": 3
+  },
+  {
+    "hasInstances": false,
+    "category": "low. veg.",
+    "catid": 4,
+    "name": "low. veg.",
+    "ignoreInEval": false,
+    "id": 4,
+    "color": [
+      0,
+      255,
+      255
+    ],
+    "trainId": 4
+  },
+  {
+    "hasInstances": false,
+    "category": "build",
+    "catid": 5,
+    "name": "build",
+    "ignoreInEval": false,
+    "id": 5,
+    "color": [
+      0,
+      0,
+      255
+    ],
+    "trainId": 5
+  }
+]

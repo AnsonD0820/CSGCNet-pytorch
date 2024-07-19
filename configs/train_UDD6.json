@@ -1,0 +1,37 @@
+{
+    "dataset_config":
+    {
+        "name": "UDD",
+        "dataset_config_file": "/home/wuyi/AnsonD/CSGCNet/configs/UDD_info.json",
+        "num_classes": 6,
+        "cropsize": [1024, 1024],
+        "dataset_path": "/home/wuyi/AnsonD/CSGCNet/data/UDD6",
+        "ignore_idx": 255,
+        "shuffle": true
+    },
+    "training_config":
+    {
+        "batch_size": 8,
+        "num_workers": 8,
+        "gpu_id": 0,
+        "optimizer_momentum": 0.9,
+        "optimizer_weight_decay": 5e-3,
+        "optimizer_lr_start": 1e-4,
+        "optimizer_power": 0.9,
+        "warmup_stemps": 1000,
+        "warmup_start_lr": 1e-4,
+        "max_iterations": 3000,
+        "msg_iterations": 3000,
+        "save_iter": 1000,
+        "experiments_path": "UDD6_CSGCNet",
+        "model_save_name": "UDD6_CSGCNet_1024x1024.pth",
+        "backbone_weights": "mobilenetv3-small-55df8e1f.pth"
+    },
+    "validation_config":
+    {
+        "batch_size":1 ,
+        "eval_scales": [1],
+        "validation_output_folder": "UDD6_CSGCNet_experiments/results",
+        "flip": false
+    }
+}
